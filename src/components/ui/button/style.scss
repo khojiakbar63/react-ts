@@ -1,0 +1,16 @@
+.btn{
+    border: 1px solid #9a30e5;
+    padding: 5px 10px;
+    color: #9a30e5;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: #9a30e5;
+        color: #fff;
+    }
+    &:active{
+        background-color: #38085b;
+        color: #fff;
+    }
+}
